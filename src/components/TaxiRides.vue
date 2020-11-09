@@ -9,7 +9,7 @@
             class="taxi-fares bg-white p-2 rounded m-1 border-b border-grey hover:bg-grey-lighter flex flex-wrap"
             v-bind:key="taxiRide.key"
           >
-            <Ride taxiRide="taxiRide"/>
+            <Ride v-bind:taxiRide="taxiRide"/>
           </div>
         </div>
       </div>

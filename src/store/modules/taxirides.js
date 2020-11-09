@@ -1,5 +1,3 @@
-// import { format as formatDateFns } from "date-fns";
-
 const state = {
   taxiRides: []
 };
